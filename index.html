@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BlitzMode — Legal</title>
+  <meta name="description" content="Official legal documents for the BlitzMode app." />
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: -apple-system, system-ui, Segoe UI, Roboto, Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+    main { max-width: 820px; margin: 0 auto; padding: 28px 18px; }
+    h1 { font-size: 28px; margin: 0 0 8px; }
+    p { margin: 10px 0; }
+    .card { border: 1px solid rgba(127,127,127,.25); border-radius: 14px; padding: 16px; margin: 16px 0; }
+    .muted { opacity: .8; }
+    a { text-decoration: none; font-weight: 500; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>BlitzMode Legal</h1>
+    <p class="muted">Official legal and support documents for the BlitzMode app.</p>
+
+    <div class="card">
+      <h2 style="margin:0 0 8px; font-size:20px;">Privacy Policy</h2>
+      <p>
+        Details about data handling, storage, and privacy practices.
+      </p>
+      <p>
+        <a href="PrivacyPolicy.html">View Privacy Policy →</a>
+      </p>
+    </div>
+
+    <div class="card">
+      <h2 style="margin:0 0 8px; font-size:20px;">Terms of Use</h2>
+      <p>
+        Terms and conditions governing the use of BlitzMode.
+      </p>
+      <p>
+        <a href="Terms.html">View Terms of Use →</a>
+      </p>
+    </div>
+
+    <div class="card">
+      <h2 style="margin:0 0 8px; font-size:20px;">Support</h2>
+      <p>
+        Contact information and help resources.
+      </p>
+      <p>
+        <a href="support.html">Contact Support →</a>
+      </p>
+    </div>
+
+    <p class="muted">© <span id="y"></span> BlitzMode</p>
+  </main>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
